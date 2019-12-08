@@ -24,7 +24,7 @@ mkdir lineage
 cd lineage
 repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
 ```
-
+Put the [local manifest](https://github.com/oguzkaganeren/lg-g4-build-lineage/blob/master/local_manifest.xml) to inside of `android/lineage/.repo/`
 ```
 repo sync
 ```
